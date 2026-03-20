@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio van Nathan Wilson, software developer en HBO Informatica student.">
-    <title>Nathan Wilson | Portfolio</title>
+    <meta id="meta-description" data-i18n-attr="metaDescription|content" content="Portfolio van Nathan Wilson, software developer en HBO Informatica student.">
+    <title data-i18n="pageTitle">Nathan Wilson | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button id="lang-toggle" class="lang-toggle lang-toggle-floating" type="button" aria-label="Switch language to English">EN</button>
     <div class="page-shell">
         <aside class="sidebar">
             <div class="profile-card panel">
                 <img class="avatar" src="profile.png" alt="Portret van Nathan Wilson">
                 <div class="profile-copy">
-                    <p class="eyebrow">Portfolio</p>
+                    <p class="eyebrow" data-i18n="eyebrow">Portfolio</p>
                     <h1>Nathan Wilson</h1>
-                    <p class="role">Software Developer</p>
+                    <p class="role" data-i18n="role">Software Developer</p>
                 </div>
 
                 <div class="social-links" aria-label="Profile links">
@@ -29,19 +30,19 @@
                         </svg>
                         LinkedIn
                     </a>
-                    <a href="#education">Avans student</a>
+                    <a href="#education" data-i18n="avansStudent">Avans student</a>
                 </div>
 
                 <nav class="section-nav" aria-label="Section navigation">
-                    <a href="#about">Profiel</a>
-                    <a href="#experience">Werkervaring</a>
-                    <a href="#education">Opleiding</a>
-                    <a href="#strengths">Sterke punten</a>
+                    <a href="#about" data-i18n="navProfile">Profiel</a>
+                    <a href="#experience" data-i18n="navExperience">Werkervaring</a>
+                    <a href="#education" data-i18n="navEducation">Opleiding</a>
+                    <a href="#strengths" data-i18n="navStrengths">Sterke punten</a>
                 </nav>
             </div>
 
             <section class="panel sidebar-section">
-                <p class="section-label">Vaardigheden</p>
+                <p class="section-label" data-i18n="labelSkills">Vaardigheden</p>
                 <div class="pill-grid">
                     <span>Agile / SCRUM</span>
                     <span>GitHub</span>
@@ -56,46 +57,44 @@
             </section>
 
             <section class="panel sidebar-section">
-                <p class="section-label">Werkstijl</p>
+                <p class="section-label" data-i18n="labelWorkstyle">Werkstijl</p>
                 <div class="pill-grid compact">
-                    <span>Leergierig</span>
-                    <span>Planmatig</span>
-                    <span>Teamgericht</span>
-                    <span>Op tijd</span>
+                    <span data-i18n="wsCurious">Leergierig</span>
+                    <span data-i18n="wsStructured">Planmatig</span>
+                    <span data-i18n="wsTeam">Teamgericht</span>
+                    <span data-i18n="wsOnTime">Op tijd</span>
                 </div>
             </section>
 
             <section class="panel sidebar-section split-list">
                 <div>
-                    <p class="section-label">Locatie</p>
-                    <p>Nijmegen</p>
+                    <p class="section-label" data-i18n="labelLocation">Locatie</p>
+                    <p data-i18n="locationValue">Nijmegen</p>
                 </div>
                 <div>
-                    <p class="section-label">Talen</p>
-                    <p>Nederlands, Engels</p>
+                    <p class="section-label" data-i18n="labelLanguages">Talen</p>
+                    <p data-i18n="languagesValue">Nederlands, Engels</p>
                 </div>
             </section>
 
             <section class="panel sidebar-section">
-                <p class="section-label">Focus</p>
+                <p class="section-label" data-i18n="labelFocus">Focus</p>
                 <div class="pill-grid compact">
-                    <span>Softwareontwikkeling</span>
-                    <span>Backend systemen</span>
-                    <span>Probleemoplossing</span>
-                    <span>Samenwerken</span>
+                    <span data-i18n="focusSoftware">Softwareontwikkeling</span>
+                    <span data-i18n="focusBackend">Backend systemen</span>
+                    <span data-i18n="focusProblem">Probleemoplossing</span>
+                    <span data-i18n="focusTeamwork">Samenwerken</span>
                 </div>
             </section>
         </aside>
 
         <main class="content">
-            
-
             <section id="about" class="content-section">
                 <div class="section-heading">
                     <p class="section-index">01</p>
                     <div>
-                        <h3>Profiel</h3>
-                        <p>
+                        <h3 data-i18n="aboutTitle">Profiel</h3>
+                        <p data-i18n="aboutBody">
                             Mijn naam is Nathan Wilson en ik studeer Informatica aan Avans Hogeschool in
                             's-Hertogenbosch. Ik vind het leuk om aan uitdagende opdrachten te werken en nieuwe
                             technologie snel eigen te maken. Tijdens schoolprojecten heb ik veel ervaring opgedaan
@@ -109,8 +108,8 @@
                 <div class="section-heading">
                     <p class="section-index">02</p>
                     <div>
-                        <h3>Werkervaring</h3>
-                        <p>Praktijkervaring uit stage, sales en retail, met nadruk op samenwerken, verantwoordelijkheid en ontwikkeling.</p>
+                        <h3 data-i18n="expTitle">Werkervaring</h3>
+                        <p data-i18n="expIntro">Praktijkervaring uit stage, sales en retail, met nadruk op samenwerken, verantwoordelijkheid en ontwikkeling.</p>
                     </div>
                 </div>
 
@@ -118,12 +117,12 @@
                     <article class="panel detail-card timeline-card">
                         <div class="card-header">
                             <div>
-                                <h4>Stagiair Platformontwikkeling</h4>
-                                <p>Yoast | Wijchen</p>
+                                <h4 data-i18n="exp1Role">Stagiair Platformontwikkeling</h4>
+                                <p data-i18n="exp1Company">Yoast | Wijchen</p>
                             </div>
-                            <p class="date-range">2025</p>
+                            <p class="date-range" data-i18n="exp1Date">2025</p>
                         </div>
-                        <p>
+                        <p data-i18n="exp1Body">
                             Tijdens een stage van 20 weken deed ik ervaring op in een professionele developmentomgeving.
                             Ik werkte met bestaande systemen, backend-gerichte taken en DevOps-processen. Daarbij leerde
                             ik meer over API's, databases, productieomgevingen en samenwerken binnen een team.
@@ -133,12 +132,12 @@
                     <article class="panel detail-card timeline-card">
                         <div class="card-header">
                             <div>
-                                <h4>Salesmedewerker</h4>
-                                <p>Pepperminds | Nijmegen</p>
+                                <h4 data-i18n="exp2Role">Salesmedewerker</h4>
+                                <p data-i18n="exp2Company">Pepperminds | Nijmegen</p>
                             </div>
-                            <p class="date-range">2023</p>
+                            <p class="date-range" data-i18n="exp2Date">2023</p>
                         </div>
-                        <p>
+                        <p data-i18n="exp2Body">
                             In deze functie ontwikkelde ik mijn communicatieve vaardigheden en leerde ik doelgericht
                             werken. De rol vroeg om doorzettingsvermogen, verantwoordelijkheid en goed kunnen
                             samenwerken in een resultaatgerichte omgeving.
@@ -148,12 +147,12 @@
                     <article class="panel detail-card timeline-card">
                         <div class="card-header">
                             <div>
-                                <h4>Winkelmedewerker</h4>
-                                <p>Albert Heijn | Nijmegen</p>
+                                <h4 data-i18n="exp3Role">Winkelmedewerker</h4>
+                                <p data-i18n="exp3Company">Albert Heijn | Nijmegen</p>
                             </div>
-                            <p class="date-range">2021 - 2023</p>
+                            <p class="date-range" data-i18n="exp3Date">2021 - 2023</p>
                         </div>
-                        <p>
+                        <p data-i18n="exp3Body">
                             Bij Albert Heijn leerde ik klantgericht werken, verantwoordelijkheid nemen en effectief
                             samenwerken met collega's. Deze ervaring heeft mijn discipline en werkhouding verder versterkt.
                         </p>
@@ -165,8 +164,8 @@
                 <div class="section-heading">
                     <p class="section-index">03</p>
                     <div>
-                        <h3>Opleiding</h3>
-                        <p>Mijn studieachtergrond met focus op softwareontwikkeling en informatica.</p>
+                        <h3 data-i18n="eduTitle">Opleiding</h3>
+                        <p data-i18n="eduIntro">Mijn studieachtergrond met focus op softwareontwikkeling en informatica.</p>
                     </div>
                 </div>
 
@@ -174,12 +173,12 @@
                     <article class="panel detail-card">
                         <div class="card-header">
                             <div>
-                                <h4>HBO Informatica</h4>
-                                <p>Avans Hogeschool | Den Bosch</p>
+                                <h4 data-i18n="edu1Title">HBO Informatica</h4>
+                                <p data-i18n="edu1School">Avans Hogeschool | Den Bosch</p>
                             </div>
-                            <p class="date-range">2022 - heden</p>
+                            <p class="date-range" data-i18n="edu1Date">2022 - heden</p>
                         </div>
-                        <p>
+                        <p data-i18n="edu1Body">
                             Binnen mijn opleiding richt ik mij op softwareontwikkeling en werk ik aan projecten waarin
                             techniek, samenwerking en het opleveren van kwaliteit centraal staan. De studie sluit goed
                             aan op mijn ambitie om door te groeien als software developer.
@@ -189,14 +188,12 @@
                     <article class="panel detail-card">
                         <div class="card-header">
                             <div>
-                                <h4>HBO Technische Informatica</h4>
-                                <p>Avans Hogeschool | Den Bosch</p>
+                                <h4 data-i18n="edu2Title">HBO Technische Informatica</h4>
+                                <p data-i18n="edu2School">Avans Hogeschool | Den Bosch</p>
                             </div>
-                            <p class="date-range">2021 - 2022</p>
+                            <p class="date-range" data-i18n="edu2Date">2021 - 2022</p>
                         </div>
-                        <p>
-                            
-                        </p>
+                        <p data-i18n="edu2Body">Oriëntatiejaar waarin ik een technische basis opbouwde die goed aansloot op mijn overstap naar Informatica.</p>
                     </article>
                 </div>
             </section>
@@ -205,8 +202,8 @@
                 <div class="section-heading">
                     <p class="section-index">04</p>
                     <div>
-                        <h3>Sterke punten</h3>
-                        <p>Eigenschappen en vaardigheden die terugkomen in mijn opleiding en werkervaring.</p>
+                        <h3 data-i18n="strengthTitle">Sterke punten</h3>
+                        <p data-i18n="strengthIntro">Eigenschappen en vaardigheden die terugkomen in mijn opleiding en werkervaring.</p>
                     </div>
                 </div>
 
@@ -215,24 +212,24 @@
                         <div class="project-topline">
                             <p class="project-icon">01</p>
                             <div class="pill-row">
-                                <span>Samenwerking</span>
+                                <span data-i18n="s1Tag1">Samenwerking</span>
                                 <span>SCRUM</span>
                             </div>
                         </div>
-                        <h4>Teamgericht</h4>
-                        <p>Ik werk graag samen aan een gezamenlijk doel en heb op school en tijdens werk geleerd hoe belangrijk duidelijke afstemming is.</p>
+                        <h4 data-i18n="s1Title">Teamgericht</h4>
+                        <p data-i18n="s1Body">Ik werk graag samen aan een gezamenlijk doel en heb op school en tijdens werk geleerd hoe belangrijk duidelijke afstemming is.</p>
                     </article>
 
                     <article class="panel project-card">
                         <div class="project-topline">
                             <p class="project-icon">02</p>
                             <div class="pill-row">
-                                <span>Communicatie</span>
-                                <span>Klantcontact</span>
+                                <span data-i18n="s2Tag1">Communicatie</span>
+                                <span data-i18n="s2Tag2">Klantcontact</span>
                             </div>
                         </div>
-                        <h4>Communicatief</h4>
-                        <p>Door mijn ervaring bij Pepperminds en Albert Heijn heb ik geleerd helder te communiceren en professioneel met mensen om te gaan.</p>
+                        <h4 data-i18n="s2Title">Communicatief</h4>
+                        <p data-i18n="s2Body">Door mijn ervaring bij Pepperminds en Albert Heijn heb ik geleerd helder te communiceren en professioneel met mensen om te gaan.</p>
                     </article>
 
                     <article class="panel project-card">
@@ -243,20 +240,20 @@
                                 <span>DevOps</span>
                             </div>
                         </div>
-                        <h4>Technisch leergierig</h4>
-                        <p>Tijdens mijn stage heb ik gewerkt met API's, databases en productieomgevingen. Ik pak nieuwe technische onderwerpen snel op.</p>
+                        <h4 data-i18n="s3Title">Technisch leergierig</h4>
+                        <p data-i18n="s3Body">Tijdens mijn stage heb ik gewerkt met API's, databases en productieomgevingen. Ik pak nieuwe technische onderwerpen snel op.</p>
                     </article>
 
                     <article class="panel project-card">
                         <div class="project-topline">
                             <p class="project-icon">04</p>
                             <div class="pill-row">
-                                <span>Planning</span>
-                                <span>Verantwoordelijkheid</span>
+                                <span data-i18n="s4Tag1">Planning</span>
+                                <span data-i18n="s4Tag2">Verantwoordelijkheid</span>
                             </div>
                         </div>
-                        <h4>Betrouwbaar</h4>
-                        <p>Ik vind het belangrijk om op tijd te zijn, met een plan te werken en verantwoordelijkheid te nemen voor het resultaat van mijn werk.</p>
+                        <h4 data-i18n="s4Title">Betrouwbaar</h4>
+                        <p data-i18n="s4Body">Ik vind het belangrijk om op tijd te zijn, met een plan te werken en verantwoordelijkheid te nemen voor het resultaat van mijn werk.</p>
                     </article>
                 </div>
             </section>
